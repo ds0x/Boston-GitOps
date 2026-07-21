@@ -22,7 +22,8 @@ org_settings:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
     org_name: ds Boston GitOps
-
+  fleet_desktop:
+    transparency_url: https://catoftheday.com
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
@@ -55,9 +56,9 @@ org_settings:
     #   • https://fleetdm.com/guides/setup-experience#require-idp-authentication
     ###########################################################
     # end_user_authentication:
-    #   idp_name: "Okta"  # e.g. "Entra", "Okta", "Google Workspace", etc. (Displayed to end users.)
-    #   metadata_url: "https://okta.com/replace-this-url" # This must exactly match the "IdP metadata URL" provided by your identity provider (IdP) when setting up this integration.
-    #   entity_id: "fleet-end-users" # This must exactly match the "Entity ID" field you chose when setting up this integration in your identity provider (IdP).
+#   idp_name: "Okta"  # e.g. "Entra", "Okta", "Google Workspace", etc. (Displayed to end users.)
+#   metadata_url: "https://okta.com/replace-this-url" # This must exactly match the "IdP metadata URL" provided by your identity provider (IdP) when setting up this integration.
+#   entity_id: "fleet-end-users" # This must exactly match the "Entity ID" field you chose when setting up this integration in your identity provider (IdP).
 
     ###########################################################
     # Uncomment when you are ready to start using zero-touch enrollment
