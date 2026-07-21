@@ -103,6 +103,9 @@ controls:
     deadline: "2030-07-30"
     minimum_version: "26.4"
     update_new_hosts: false
+  ipados_updates:
+    deadline: "2030-07-30"
+    minimum_version: "26.2"
   # windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
@@ -197,3 +200,4 @@ software:
 
   app_store_apps: # Apps to install via VPP from the macOS App Store, if any
     # …
+    
