@@ -114,7 +114,7 @@ software:
       self_service: false
   fleet_maintained_apps:
     - slug: aws-vpn-client/darwin
-      self-service: true
+      self_service: true
 labels:
   - name: C-Suite
     description: Hosts belonging to C-Suite
